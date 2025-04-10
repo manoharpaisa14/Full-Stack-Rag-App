@@ -1,0 +1,10 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore env files (API keys, secrets, etc.)
+.env
+.env.local
+
+# macOS system files (safe to ignore)
+.DS_Store
