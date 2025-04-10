@@ -3,6 +3,7 @@ services:
     name: backend
     env: docker
     dockerfilePath: ./backend/Dockerfile
+    contextPath: ./backend
     envVars:
       - key: GOOGLE_API_KEY
         value: YOUR_API_KEY
@@ -13,5 +14,6 @@ services:
     name: frontend-auth
     env: docker
     dockerfilePath: ./doc-rag-ui/Dockerfile
+    contextPath: ./doc-rag-ui
     plan: free
     autoDeploy: true
