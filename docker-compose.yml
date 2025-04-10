@@ -6,7 +6,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - GOOGLE_API_KEY=AIzaSyCyIhQPbzAPqEkJwHWwy2EVY56GcSF6IY8
+      - GOOGLE_API_KEY="your_api_key_here"
     depends_on:
       - redis
       - elasticsearch
